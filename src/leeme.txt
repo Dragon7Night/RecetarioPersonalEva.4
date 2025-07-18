@@ -1,0 +1,43 @@
+
+
+Evaluacion N°4 | Programación Front End
+
+seccion: D-B50-N3-P13-C2
+
+Tematica: Recetario Personal
+
+Integrantes: Daniel Ortiz y José Valdés
+
+
+Link del repositorio en GitHud
+
+https://github.com/Dragon7Night/PeliculasFavoEva4.git
+
+
+
+
+-- complementos utilizados
+
+
+npm install
+
+npm install uuid4
+
+npm i bootstrap@5.3.7
+
+npm i bootstrap-icons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

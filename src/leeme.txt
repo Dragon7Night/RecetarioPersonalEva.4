@@ -11,12 +11,12 @@ Integrantes: Daniel Ortiz y José Valdés
 
 Link del repositorio en GitHud
 
-https://github.com/Dragon7Night/PeliculasFavoEva4.git
+https://github.com/Dragon7Night/RecetarioPersonalEva.4.git
 
 
 
 
--- complementos utilizados
+-- complementos utilizados en el proyecto
 
 
 npm install

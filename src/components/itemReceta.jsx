@@ -1,8 +1,8 @@
 
 import { Fragment } from "react";
 
-const PeliculaItem = ({ pelicula, onEditar, onEliminar }) => {
-  const { titulo, anio, genero, puntuacion } = pelicula;
+const RecetaItem = ({ recetas, onEditar, onEliminar }) => {
+  const { titulo, ingrediente, pasos} = recetas;
 
   return (
     <Fragment>
@@ -10,9 +10,8 @@ const PeliculaItem = ({ pelicula, onEditar, onEliminar }) => {
 
         <div>
           <div> <strong>Título:</strong> {titulo}</div>
-          <div> <strong>Fecha de publicación:</strong> [{anio}] </div>
-          <div> <strong>Género:</strong> {genero}</div>
-          <div> <strong>Puntuación:</strong> ★{puntuacion}</div>
+          <div> <strong>Ingredientes:</strong> {ingrediente} </div>
+          <div> <strong>Pasos:</strong> {pasos}</div>
         </div>
 
         <div>
@@ -24,5 +23,5 @@ const PeliculaItem = ({ pelicula, onEditar, onEliminar }) => {
   );
 };
 
-export default PeliculaItem;
+export default RecetaItem;
 

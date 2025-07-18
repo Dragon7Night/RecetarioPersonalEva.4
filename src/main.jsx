@@ -7,6 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // importacion de los style de BT5
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-import PeliculasFav from './components/datosPeliculas.jsx';
+import RecetasPer from './components/mainRecetasPerso.jsx';
 
-ReactDOM.createRoot(document.getElementById('root')).render(<PeliculasFav/>);
+ReactDOM.createRoot(document.getElementById('root')).render(<RecetasPer/>);
